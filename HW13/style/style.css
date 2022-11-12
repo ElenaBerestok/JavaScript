@@ -1,0 +1,36 @@
+.container{
+    width: 450px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.img{
+    display: inline;
+    width: 450px;
+    height: 600px;
+}
+
+.hide{
+    display: none;
+}
+
+.button {
+    background-color: rgb(237, 140, 108);
+    color: white;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid 1px  rgb(237, 140, 108);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: pink;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
