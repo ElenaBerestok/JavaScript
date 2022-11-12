@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+    <style>
+        /*  Стрелка диалогового окна */
+        .tip {
+            position: relative;
+        }
+
+        .tip:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .bottom:after {
+            top: 100%;
+            left: 50%;
+            margin-left: -10px;
+            border-left: 10px solid transparent;
+	        border-right: 10px solid transparent;
+	        border-top: 10px solid hotpink;
+        }
+
+        /* Кнопка */
+        .button {
+            position: relative;
+            background-color: deeppink;
+            color: white;
+            height: 50px;
+            width: 200px;
+            cursor: pointer;
+            font-weight: bold;
+            border: solid 1px rgb(242, 27, 142);
+            border-radius: 30px;
+            top: 200px;
+            left: 150px;
+        }
+
+        .button:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <button class="button">
+        Click here
+    </button>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
