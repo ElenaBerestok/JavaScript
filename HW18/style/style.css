@@ -1,0 +1,27 @@
+#button {
+    background-color: rgb(237, 140, 108);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid 1px  rgb(237, 140, 108);
+    margin-bottom: 20px;
+    margin: 20px 0 20px 20px;
+}
+
+#p{
+    background-color: bisque ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#post{
+    background-color: rgb(236, 172, 149);
+    border-radius: 10px;
+}
+
+#h2, #p_post{
+    padding: 20px 0 0 20px;
+}
